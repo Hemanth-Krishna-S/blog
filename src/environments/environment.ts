@@ -4,7 +4,8 @@
 declare var apiConfig: any;
 export const environment = {
   production: false,
-  learningApiBaseUrl: 'http://localhost:8080/personalBlog',
+  title: 'personalBlog-Staging',
+  personalBlogApiBaseUrl: 'http://localhost:8080/personalBlog',
   uiTemplateBaseUrl: document.getElementsByTagName('base')[0].href + '/resources/static/src/assets',
 };
 

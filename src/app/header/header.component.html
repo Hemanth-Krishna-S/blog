@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#" aria-label="Logo">
+            <img src="../../assets/logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+        <div class="offcanvas-body justify-content-end">
+            <ul class="navbar-nav mb-2 mb-lg-0 gap-3 font-bold">
+                <li class="nav-item">
+                  <a class="nav-link" [class.active] = "menuActive === navbarElements[0]" href="{{navbarElements[0]}}" (click) = "navigate(navbarElements[0])">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" [class.active] = "menuActive === navbarElements[1]" href="{{navbarElements[1]}}" (click) = "navigate(navbarElements[1])">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" [class.active] = "menuActive === navbarElements[2]" href="{{navbarElements[2]}}" (click) = "navigate(navbarElements[2])">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" [class.active] = "menuActive === navbarElements[3]" href="{{navbarElements[3]}}" (click) = "navigate(navbarElements[3])">Achievements</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" [class.active] = "menuActive === navbarElements[4]" href="{{navbarElements[4]}}" (click) = "navigate(navbarElements[4])">Interests</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [class.active] = "menuActive === navbarElements[5]" href="{{navbarElements[5]}}" (click) = "navigate(navbarElements[5])">Personal Details</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" [class.active] = "menuActive === navbarElements[6]" href="{{navbarElements[6]}}" (click) = "navigate(navbarElements[6])">Contact</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+</nav>
+  
