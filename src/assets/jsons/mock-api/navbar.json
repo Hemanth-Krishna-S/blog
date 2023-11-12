@@ -1,0 +1,31 @@
+{
+    "success": true,
+    "description": "Successfully fetched",
+    "elementsList": [
+      {
+        "id": "home",
+        "displayName": "Home",
+        "navigationUrl": "/home"
+      },
+      {
+        "id": "projects",
+        "displayName": "Projects",
+        "navigationUrl": "/projects"
+      },
+      {
+        "id": "skills",
+        "displayName": "Skills",
+        "navigationUrl": "/skills"
+      },
+      {
+        "id": "achievements",
+        "displayName": "Achievements",
+        "navigationUrl": "/achievements"
+      },
+      {
+        "id": "personalDetails",
+        "displayName": "Personal Details",
+        "navigationUrl": "/personalDetails"
+      }
+    ]
+}

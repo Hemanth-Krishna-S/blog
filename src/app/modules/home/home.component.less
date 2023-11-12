@@ -1,3 +1,5 @@
+@import '../../core/themes/__variables.less';
+
 // .profile::before{
 //     content: "";
 //     position: absolute;
@@ -14,3 +16,24 @@
 // .profile {
 //     flex-basis: 40%;
 // }
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+
+.social-links a{
+    font-size: 1rem;
+    color: @linksColor;
+    border: 1.6px solid @linksColor;
+    border-radius: 50%;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social-links a:hover{
+    color: #fff;
+    background-color: @linksColor;
+    box-shadow: 0px 0px 20px @linksColor;
+}

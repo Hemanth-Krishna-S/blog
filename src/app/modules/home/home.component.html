@@ -1,14 +1,15 @@
 <div class="container">
     <div class="row align-items-center" style="height:85vh">
         <div class="profile col-12 col-md-4 order-1 order-md-0">
-            <img src="../../../assets/home_profile_2.png" alt="home profile image">
+            <img src="{{assetsPath}}/home_profile_2.png" alt="home profile image">
         </div>
-        <div class="description col-12 col-md-8 order-0 order-md-1">
-            <h3>Hi, There</h3>
-            <h1>I'm <span style="color:#f9532d;">Hemanth</span></h1>
-            <p>Software Developer with 5+ years of experience as full-stack developer
-                equipped with promising skill set. Able to effectively self-manage during
-                individual projects as well as collaborative as part of productive team.</p>
+        <div *ngIf= "homeContent && homeContent.success == true" class="description col-12 col-md-8 order-0 order-md-1">
+            <h4>{{homeContent.salutation}}</h4>
+            <h2>I'm <span style="color:#f9532d;">{{homeContent.name}}</span></h2>
+            <p>{{homeContent.profileDescription}}</p>
+            <div class = "social-links">
+                <a *ngFor="let link of homeContent.socialLinks" href="{{link.url}}" target="_blank"><i class="bi" [ngClass]="link.icon"></i></a>
+            </div>    
         </div>
     </div>
 </div>
