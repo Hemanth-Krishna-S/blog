@@ -4,6 +4,6 @@ import { SocialLinks } from "./social-links";
 export interface HomeContent extends BaseResponseModel{
     salutation: string;
     name: string;
-    profileDescription: string;
+    designation: string;
     socialLinks: SocialLinks[]
 }

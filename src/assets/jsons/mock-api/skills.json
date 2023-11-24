@@ -1,0 +1,88 @@
+{
+    "success" : true,
+    "description" : "Successfully fetched",
+    "frontendSkillsList": [
+        {
+            "skill" : "Angular",
+            "noOfYearsExp" : "4 years",
+            "image" : "angular-logo.png",
+            "display" : true,
+            "width" : "55",
+            "height" : "55"
+        },
+        {
+            "skill" : "Veu js",
+            "noOfYearsExp" : "1 year",
+            "image" : "vue-logo.png",
+            "display" : true,
+            "width" : "55",
+            "height" : "55"
+        },
+        {
+            "skill" : "HTML",
+            "noOfYearsExp" : "5 years",
+            "image" : "html-logo.svg",
+            "display" : true,
+            "width" : "50",
+            "height" : "50"
+        },
+        {
+            "skill" : "CSS",
+            "noOfYearsExp" : "5 years",
+            "image" : "css3-logo.png",
+            "display" : true,
+            "width" : "55",
+            "height" : "55"
+        },
+        {
+            "skill" : "Javascript",
+            "noOfYearsExp" : "5 years",
+            "image" : "js-logo.png",
+            "display" : true,
+            "width" : "50",
+            "height" : "50"
+        },
+        {
+            "skill" : "Bootstrap",
+            "noOfYearsExp" : "5 years",
+            "image" : "bootstrap-logo.svg",
+            "display" : true,
+            "width" : "50",
+            "height" : "50"
+        }
+    ],
+    "backendSkillsList": [
+        {
+            "skill" : "Spring Boot",
+            "noOfYearsExp" : "5 years",
+            "image" : "spring-boot-logo.png",
+            "display" : true,
+            "width" : "50",
+            "height" : "50"
+        },
+        {
+            "skill" : "Java",
+            "noOfYearsExp" : "5 years",
+            "image" : "java-logo.png",
+            "display" : true,
+            "width" : "90",
+            "height" : "90"
+        },
+        {
+            "skill" : "SQL",
+            "noOfYearsExp" : "5 years",
+            "image" : "sql-logo.png",
+            "display" : true,
+            "width" : "75",
+            "height" : "75"
+        },
+        {
+            "skill" : "MySQL",
+            "noOfYearsExp" : "5 years",
+            "image" : "mysql-logo.png",
+            "display" : true,
+            "width" : "80",
+            "height" : "80"
+        }
+    ]
+}

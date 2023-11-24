@@ -8,8 +8,8 @@
         "navigationUrl": "/home"
       },
       {
-        "id": "projects",
-        "displayName": "Projects",
+        "id": "experience",
+        "displayName": "Experience",
         "navigationUrl": "/projects"
       },
       {
@@ -18,13 +18,8 @@
         "navigationUrl": "/skills"
       },
       {
-        "id": "achievements",
-        "displayName": "Achievements",
-        "navigationUrl": "/achievements"
-      },
-      {
-        "id": "personalDetails",
-        "displayName": "Personal Details",
+        "id": "about",
+        "displayName": "About",
         "navigationUrl": "/personalDetails"
       }
     ]

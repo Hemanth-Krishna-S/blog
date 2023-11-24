@@ -1,4 +1,11 @@
+@import './app/core/themes/__variables.less';
+
 /* You can add global styles to this file, and also import other style files */
+body {
+    height: 100vh;
+    background-color: @bodyColor !important;
+    color: @navLink;
+}
 .selector-for-some-widget {
     box-sizing: content-box;
 }
@@ -7,4 +14,7 @@
 }
 .font-20 {
     font-size: 20px;
+}
+.gap-20 {
+    gap: 20px;
 }

@@ -5,4 +5,7 @@ export class ApiConstants {
 
     // home api constants
     public static FETCH_HOME_CONTENT_API = '/home.json';
+
+    // skills api constants
+    public static FETCH_SKILLS_API = '/skills.json';
 }

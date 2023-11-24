@@ -3,7 +3,8 @@
     "description" : "Successfully fetched",
     "salutation" : "Hi, There",
     "name" : "Hemanth Krishna Sankara",
-    "profileDescription" : "Software Developer with 5+ years of experience as full-stack developer equipped with promising skill set. Able to effectively self-manage during individual projects as well as collaborative as part of productive team.",
+    "aboutMe" : "Software Developer with 5+ years of experience as full-stack developer equipped with promising skill set. Able to effectively self-manage during individual projects as well as collaborative as part of productive team.",
+    "designation" : "Full Stack Developer",
     "socialLinks" : [
         {
             "name" : "linkedin",
@@ -13,7 +14,7 @@
         {
             "name" : "mail",
             "icon" : "bi-envelope-fill",
-            "url" : "https://mail.google.com/mail/u/0/?fs=1&to=hemanthsankara@gmail.com&su=&body=&bcc=&tf=cm"
+            "url" : "mailto:hemanthsankara@gmail.com"
         },
         {
             "name" : "instagram",

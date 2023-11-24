@@ -1,3 +1,14 @@
+@import '../core/themes/__variables.less';
+
+.navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: small;
+    color: @navLink;
+}
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    color: var(--bs-orange) ;
+    color:  @navbarActive;
+}
+.bg-body-tertiary {
+    background-color: @navbarColor !important;
 }
