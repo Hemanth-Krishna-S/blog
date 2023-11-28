@@ -13,6 +13,7 @@ export class HomeComponent implements OnInit{
     assetsPath: string = environment.assetsPath;
     homeContentApi: string = ApiConstants.FETCH_HOME_CONTENT_API;
     homeContent: HomeContent | undefined;
+    homeProfilePic: string = "home_profile_2.png";
 
     constructor(private homeService: HomeService) {}
 

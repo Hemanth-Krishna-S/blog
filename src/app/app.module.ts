@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LayoutComponent } from './layout/layout.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SharedModule } from './shared/shared.module';
 
 
 @NgModule({
@@ -17,11 +18,11 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent
   ],
   imports: [
+    SharedModule,
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

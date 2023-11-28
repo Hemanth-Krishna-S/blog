@@ -18,9 +18,14 @@
         "navigationUrl": "/skills"
       },
       {
+        "id": "achievements",
+        "displayName": "achievements",
+        "navigationUrl": "/achievements"
+      },
+      {
         "id": "about",
         "displayName": "About",
-        "navigationUrl": "/personalDetails"
+        "navigationUrl": "/about"
       }
     ]
 }

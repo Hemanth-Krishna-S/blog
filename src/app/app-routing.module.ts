@@ -17,8 +17,8 @@ const routes: Routes = [
         loadChildren: () => import('./modules/home/home.module').then(m => m.HomeModule)
       },
       {
-        path: 'personalDetails',
-        loadChildren: () => import('./modules/personal-details/personal-details.module').then(m => m.PersonalDetailsModule)
+        path: 'about',
+        loadChildren: () => import('./modules/about/about.module').then(m => m.AboutModule)
       },
       {
         path: 'skills',
@@ -29,16 +29,12 @@ const routes: Routes = [
         loadChildren: () => import('./modules/projects/projects.module').then(m => m.ProjectsModule)
       },
       {
-        path: 'interests',
-        loadChildren: () => import('./modules/interests/interests.module').then(m => m.InterestsModule)
+        path: 'achievements',
+        loadChildren: () => import('./modules/achievements/achievements.module').then(m => m.AchievementsModule)
       },
       {
         path: 'contact',
         loadChildren: () => import('./modules/contact/contact.module').then(m => m.ContactModule)
-      },
-      {
-        path: 'achievements',
-        loadChildren: () => import('./modules/achievements/achievements.module').then(m => m.AchievementsModule)
       }
     ]
   },

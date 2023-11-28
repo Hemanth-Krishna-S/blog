@@ -1,16 +1,14 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-
+import { SharedModule } from 'src/app/shared/shared.module';
 import { AchievementsRoutingModule } from './achievements-routing.module';
 import { AchievementsComponent } from './achievements.component';
 
 
+
 @NgModule({
-  declarations: [
-    AchievementsComponent
-  ],
+  declarations: [AchievementsComponent],
   imports: [
-    CommonModule,
+    SharedModule,
     AchievementsRoutingModule
   ]
 })

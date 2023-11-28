@@ -1,0 +1,70 @@
+{
+    "success" : true,
+    "description" : "Fetched Successfully",
+    "achievements" : [
+        {
+            "heading" : "Team of the Quarter",
+            "images" : [
+                {
+                    "name" : "EOM_JAN_2023.jpg",
+                    "active" :  true
+                }
+            ],
+            "text" : ""
+        },
+        {
+            "heading" : "Team of the Quarter",
+            "images" : [
+                {
+                    "name" : "EOM_JAN_2023.jpg",
+                    "active" :  true
+                }
+            ],
+            "text" : ""
+        },
+        {
+            "heading" : "Employee of the Month",
+            "images" : [
+                {
+                    "name" : "EOM_JAN_2023.jpg",
+                    "active" :  true
+                }
+            ],
+            "text" : ""
+        },
+        {
+            "heading" : "Employee of the Month",
+            "images" : [
+                {
+                    "name" : "EOM_DEC_2022.jpg",
+                    "active" :  true
+                }
+            ],
+            "text" : ""
+        },
+        {
+            "heading" : "Employee of the Month",
+            "images" : [
+                {
+                    "name" : "EOM_MAY_2022.jpg",
+                    "active" :  true
+                }
+            ],
+            "text" : ""
+        },
+        {
+            "heading" : "Employee of the Month",
+            "images" : [
+                {
+                    "name" : "EOM_JAN_2020.jpg",
+                    "active" :  true
+                },
+                {
+                    "name" : "EOM_JAN_2020_1.jpg",
+                    "active" :  false
+                }
+            ],
+            "text" : ""
+        }
+    ]
+}

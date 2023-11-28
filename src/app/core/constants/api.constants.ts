@@ -8,4 +8,7 @@ export class ApiConstants {
 
     // skills api constants
     public static FETCH_SKILLS_API = '/skills.json';
+
+    // achievements api constants
+    public static FETCH_ACHIVEMENTS_API = '/achivements.json';
 }
