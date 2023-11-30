@@ -2,18 +2,17 @@ import { HttpClient, HttpErrorResponse } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { Observable, catchError, throwError } from "rxjs";
 import { environment } from "src/environments/environment";
-import { ProfileContent } from "./models/profile-content";
+import { Experience } from "./models/experience";
 
 @Injectable({
-    providedIn: "root"
-})
-export class AboutService {
-    constructor(private http: HttpClient) { }
+    providedIn: 'root'})
+export class ExperienceService {
+  constructor(private http: HttpClient) { }
 
   baseUrl: string = environment.apiBaseUrl;
 
-  getProfileContent(api: string): Observable<ProfileContent> {
-    return this.http.get<ProfileContent>(this.baseUrl+api).pipe(catchError(this.handleError));
+  getExperienceDetails(api: string): Observable<Experience> {
+    return this.http.get<Experience>(this.baseUrl+api).pipe(catchError(this.handleError));
   }
 
   private handleError(error: HttpErrorResponse) {

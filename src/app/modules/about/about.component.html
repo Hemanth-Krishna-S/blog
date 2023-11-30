@@ -1,3 +1,46 @@
 <div class="container">
-    
+    <div class="row home align-items-center mt-5 mt-md-1">
+        <div *ngIf= "profileContent && profileContent.success == true" class="description col-12 col-md-8">
+            <!-- <h3>{{profileContent.salutation}}</h3> -->
+            <h1><span class="name">{{profileContent.name}}</span></h1>
+            <h2>{{profileContent.designation}}</h2>
+            <div class = "social-links mt-3">
+                <a *ngFor="let link of profileContent.socialLinks" href="{{link.url}}" class="btn" data-bs-toggle="tooltip" data-bs-placement="top" title="{{link.value}}" target="_blank">
+                    <i class="bi" [ngClass]="link.icon"></i>
+                </a>
+            </div>    
+        </div>
+        <div class="col-12 col-md-4 text-center">
+            <div class="card">
+                <img [imgSrc]=profilePic alt="Profile image">
+            </div>
+        </div>
+    </div>
 </div>
+
+<!-- <div class="container d-flex flex-md-nowrap flex-wrap align-items-center gap-3" style="height: 85vh;">
+    <div class="description order-0 order-md-1">
+        <h3>Hi, There</h3>
+            <h1>I'm <span style="color:#f9532d;">Hemanth</span></h1>
+            <p>Software Developer with 5+ years of experience as full-stack developer
+                equipped with promising skill set. Able to effectively self-manage during
+                individual projects as well as collaborative as part of productive team.</p>
+    </div>
+    <div class="profile order-1 order-md-0">
+        <img src="../../../assets/home_profile_2.png" alt="home profile image">
+    </div>
+</div> -->
+<!-- <div class="container">
+    <div class="card-group">
+        <div class="card">
+            <div class="card-body">
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                
+            </div>
+        </div>
+    </div>
+</div> -->

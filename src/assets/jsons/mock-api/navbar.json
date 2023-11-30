@@ -3,14 +3,14 @@
     "description": "Successfully fetched",
     "elementsList": [
       {
-        "id": "home",
-        "displayName": "Home",
-        "navigationUrl": "/home"
+        "id": "about",
+        "displayName": "About",
+        "navigationUrl": "/about"
       },
       {
         "id": "experience",
         "displayName": "Experience",
-        "navigationUrl": "/projects"
+        "navigationUrl": "/experience"
       },
       {
         "id": "skills",
@@ -21,11 +21,6 @@
         "id": "achievements",
         "displayName": "achievements",
         "navigationUrl": "/achievements"
-      },
-      {
-        "id": "about",
-        "displayName": "About",
-        "navigationUrl": "/about"
       }
     ]
 }

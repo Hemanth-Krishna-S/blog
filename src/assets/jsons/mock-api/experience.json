@@ -1,0 +1,34 @@
+{
+    "success" : true,
+    "description" : "Feteched Successfully",
+    "experience" : [
+        {
+            "companyName" : "Spicemoney",
+            "period" : "Feb 2022 - Present",
+            "workPlace" : "Remote",
+            "designation" : "Senior Software Engineer",
+            "projects" : ""
+        },
+        {
+            "companyName" : "Nextsphere Technologies",
+            "period" : "Aug 2020 - Feb 2022",
+            "workPlace" : "Hyderabad",
+            "designation" : "Senior Software Engineer",
+            "projects" : ""
+        },
+        {
+            "companyName" : "Nextsphere Technologies",
+            "period" : "Aug 2019 - Aug 2020",
+            "workPlace" : "chennai",
+            "designation" : "Software Engineer",
+            "projects" : ""
+        },
+        {
+            "companyName" : "Nextsphere Technologies",
+            "period" : "Aug 2018- Aug 2019",
+            "workPlace" : "chennai",
+            "designation" : "Associate Software Engineer",
+            "projects" : ""
+        }
+    ]
+}

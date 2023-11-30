@@ -2,7 +2,7 @@ import { HttpClient, HttpErrorResponse } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { Observable, catchError, throwError } from "rxjs";
 import { environment } from "src/environments/environment";
-import { AchievementsList } from "../about/model/achievements-list";
+import { AchievementsList } from "./model/achievements-list";
 
 @Injectable({
     providedIn: 'root'})

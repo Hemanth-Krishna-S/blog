@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ApiConstants } from 'src/app/core/constants/api.constants';
-import { Achievement } from '../about/model/achievement';
+import { Achievement } from './model/achievement';
 import { AchievementsService } from './achievements.service';
 
 @Component({

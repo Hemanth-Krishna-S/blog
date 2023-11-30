@@ -11,4 +11,7 @@ export class ApiConstants {
 
     // achievements api constants
     public static FETCH_ACHIVEMENTS_API = '/achivements.json';
+
+    // experience api constants
+    public static FETCH_EXPERIENCE_DETAILS_API = '/experience.json';
 }

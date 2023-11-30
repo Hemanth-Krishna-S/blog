@@ -7,24 +7,34 @@
     "designation" : "Full Stack Developer",
     "socialLinks" : [
         {
+            "name" : "phone",
+            "value": "+91 9951261057",
+            "icon": "bi-telephone-outbound-fill",
+            "url" : "tel:9951261057"
+        },
+        {
             "name" : "linkedin",
+            "value": "Hemanth Krishna Sankara",
             "icon": "bi-linkedin",
             "url" : "https://www.linkedin.com/in/hemanth-krishna-sankara-8a1b25185"
         },
         {
             "name" : "mail",
+            "value": "hemanthsankara@gmail.com",
             "icon" : "bi-envelope-fill",
             "url" : "mailto:hemanthsankara@gmail.com"
         },
         {
             "name" : "instagram",
+            "value": "hemanth____krishna",
             "icon" : "bi-instagram",
             "url" : "https://instagram.com/hemanth____krishna?utm_source=qr&igshid=ZTM4ZDRiNzUwMw=="
         },
         {
-            "name" : "facebook",
-            "icon" : "bi-facebook",
-            "url" : "https://www.facebook.com/hemanth.krishna.3956?mibextid=ZbWKwL"
+            "name" : "resume",
+            "value": "Download Resume",
+            "icon" : "bi-file-earmark-person",
+            "url" : ""
         }
     ]
 }

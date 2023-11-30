@@ -4,6 +4,7 @@ import { environment } from 'src/environments/environment';
 import { HeaderService } from './header.service';
 import { NavbarElement } from './models/navbar-element';
 import { ApiConstants } from '../core/constants/api.constants';
+import { Constants } from '../core/constants/constants';
 
 @Component({
   selector: 'app-header',
@@ -15,6 +16,7 @@ export class HeaderComponent implements OnInit{
   navbarElements:NavbarElement[] | undefined;
   assetsPath: string = environment.assetsPath;
   navbarApi: string = ApiConstants.FETCH_NAVBAR_ELEMENTS_API;
+  defaultNavbarActiveElement: string = Constants.DEFAULT_NAVBAR_ACTIVE_ELEMENT;
 
 
   constructor(private router: Router,
@@ -26,9 +28,10 @@ export class HeaderComponent implements OnInit{
       next: (v) => {
         if (v && v.success) {
           this.navbarElements = v.elementsList;
-          const activeElement = this.navbarElements.filter(x => x.navigationUrl === this.router.url);
+          const routerUrl = this.router.url === '/' ? this.defaultNavbarActiveElement: this.router.url;
+          const activeElement = this.navbarElements.filter(x => x.navigationUrl === routerUrl);
           this.menuActive = activeElement && activeElement.length > 0 ? 
-                            this.navbarElements.filter(x => x.navigationUrl === this.router.url)[0].id : '';
+                            this.navbarElements.filter(x => x.navigationUrl === routerUrl)[0].id : '';
         }
       },
       error: (e) => console.error(e),

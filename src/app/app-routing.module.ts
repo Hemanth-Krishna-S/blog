@@ -9,15 +9,6 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        redirectTo: 'home',
-        pathMatch: 'full'
-      },
-      {
-        path: 'home',
-        loadChildren: () => import('./modules/home/home.module').then(m => m.HomeModule)
-      },
-      {
-        path: 'about',
         loadChildren: () => import('./modules/about/about.module').then(m => m.AboutModule)
       },
       {
@@ -25,8 +16,8 @@ const routes: Routes = [
         loadChildren: () => import('./modules/skills/skills.module').then(m => m.SkillsModule)
       },
       {
-        path: 'projects',
-        loadChildren: () => import('./modules/projects/projects.module').then(m => m.ProjectsModule)
+        path: 'experience',
+        loadChildren: () => import('./modules/experience/experience.module').then(m => m.ExperienceModule)
       },
       {
         path: 'achievements',

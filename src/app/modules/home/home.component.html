@@ -1,9 +1,9 @@
 <div class="container">
     <div class="row home align-items-center mt-5 mt-md-1">
         <div *ngIf= "homeContent && homeContent.success == true" class="description col-12 col-md-8">
-            <h3>{{homeContent.salutation}}</h3>
-            <h1>I'm <span class="name">{{homeContent.name}}</span></h1>
-            <h6>{{homeContent.designation}}</h6>
+            <!-- <h3>{{homeContent.salutation}}</h3> -->
+            <h1><span class="name">{{homeContent.name}}</span></h1>
+            <h2>{{homeContent.designation}}</h2>
             <div class = "social-links mt-3">
                 <a *ngFor="let link of homeContent.socialLinks" href="{{link.url}}" target="_blank"><i class="bi" [ngClass]="link.icon"></i></a>
             </div>    
