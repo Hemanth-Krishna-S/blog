@@ -2,6 +2,7 @@ import { Component,OnInit } from '@angular/core';
 import { ExperienceService } from './experience.service';
 import { ApiConstants } from 'src/app/core/constants/api.constants';
 import { ExperienceDetails } from './models/experience-details';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-experience',
@@ -13,7 +14,7 @@ export class ExperienceComponent implements OnInit {
   fetchExperienceDetailsApi: string = ApiConstants.FETCH_EXPERIENCE_DETAILS_API;
   experience: ExperienceDetails[] | undefined;
 
-  constructor(private experienceService: ExperienceService) {}
+  constructor(private experienceService: ExperienceService,public sanitizer: DomSanitizer) {}
 
   ngOnInit() {
     this.experienceService.getExperienceDetails(this.fetchExperienceDetailsApi).subscribe ({

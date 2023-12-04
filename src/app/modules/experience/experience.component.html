@@ -1,3 +1,12 @@
 <div class="container">
-    Experience works!
+    <div class="row justify-content-center py-5">
+        <div *ngFor= "let exp of experience" class="col-7 mt-5 position-relative experience">
+            <span class="circle"><i class="bi bi-circle-fill"></i></span>
+            <span class="experience-content">
+                <h3 class="designation">{{exp.designation}}</h3>
+                <h5>{{exp.companyName}}, {{exp.workPlace}}/{{exp.period}}</h5>
+                <div class="projects-content" [innerHTML] = "sanitizer? sanitizer.bypassSecurityTrustHtml(exp.projects) : exp.projects"></div>
+            </span>
+        </div>
+    </div>
 </div>

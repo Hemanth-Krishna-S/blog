@@ -24,7 +24,7 @@ export class AboutComponent {
         next: (v) => {
           if(v && v.success) {
             this.profileContent = v;
-            this.profileContent.socialLinks[4].url= this.assetsPath+'/resume.pdf';
+            // this.profileContent.socialLinks[4].url= this.assetsPath+'/resume.pdf';
           }
         },
         error: (e) => console.error(e),
