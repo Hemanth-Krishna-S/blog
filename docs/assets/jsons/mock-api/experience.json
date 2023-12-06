@@ -1,0 +1,34 @@
+{
+    "success" : true,
+    "description" : "Feteched Successfully",
+    "experience" : [
+        {
+            "companyName" : "Spicemoney",
+            "period" : "Feb 2022 - Present",
+            "workPlace" : "Remote",
+            "designation" : "Senior Software Engineer",
+            "projects" : "<p style=\"margin-bottom:5px;\">Contributed to SpiceMoney’s fintech project. Spearheaded the development of essential modules such as Wallet upload through Bank Deposit, UPI, Netbanking, Credit Card payments, Adhikari Subscriptions, Corporate Login checker/finance portal, Device services like Inventory, Device repair and replacement, Device consumption and Dispatch devices.</p>"
+        },
+        {
+            "companyName" : "Nextsphere Technologies",
+            "period" : "Aug 2020 - Feb 2022",
+            "workPlace" : "Hyderabad",
+            "designation" : "Senior Software Engineer",
+            "projects" : "<p style=\"margin-bottom:5px;\">Worked for the project <b>FOREVERLIVING</b> a Digital Marketing Ecommerce project on the enhancements of the integral portals such as Shop, Customer care, Account, Reports.</p>"
+        },
+        {
+            "companyName" : "Nextsphere Technologies",
+            "period" : "Aug 2019 - Aug 2020",
+            "workPlace" : "Chennai",
+            "designation" : "Software Engineer",
+            "projects" : "<p style=\"margin-bottom:5px;\">Developed the project <b>FLP360</b> a subscription based project where users can see most important aspects of his/her foreverliving business such as monthly and yearly case credit overviews, orders placed, reports, create own replicated sites.</p><p style='margin-bottom:5px;'>Developed the project <b>FLP360-PWA</b> which is a replacement of mobile apps of FLP360 with Angular progressive web app.</p>"
+        },
+        {
+            "companyName" : "Nextsphere Technologies",
+            "period" : "Aug 2018- Aug 2019",
+            "workPlace" : "Chennai",
+            "designation" : "Associate Software Engineer",
+            "projects" : "<p style=\"margin-bottom:5px;\">Migrated content from salesforce to alfresco for the projects FOREVERLIVING Discover Forever and FIT App.</p>"
+        }
+    ]
+}

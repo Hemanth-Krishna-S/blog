@@ -1,0 +1,26 @@
+{
+    "success": true,
+    "description": "Successfully fetched",
+    "elementsList": [
+      {
+        "id": "about",
+        "displayName": "About",
+        "navigationUrl": "/about"
+      },
+      {
+        "id": "experience",
+        "displayName": "Experience",
+        "navigationUrl": "/experience"
+      },
+      {
+        "id": "skills",
+        "displayName": "Skills",
+        "navigationUrl": "/skills"
+      },
+      {
+        "id": "achievements",
+        "displayName": "achievements",
+        "navigationUrl": "/achievements"
+      }
+    ]
+}

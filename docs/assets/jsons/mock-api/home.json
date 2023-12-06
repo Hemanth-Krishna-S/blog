@@ -1,0 +1,40 @@
+{
+    "success" : true,
+    "description" : "Successfully fetched",
+    "salutation" : "Hi, There",
+    "name" : "Hemanth Krishna Sankara",
+    "aboutMe" : "Software Developer with 5+ years of experience as full-stack developer equipped with promising skill set. Able to effectively self-manage during individual projects as well as collaborative as part of productive team.",
+    "designation" : "Full Stack Developer",
+    "socialLinks" : [
+        {
+            "name" : "phone",
+            "value": "+91 9951261057",
+            "icon": "bi-telephone-outbound-fill",
+            "url" : "tel:9951261057"
+        },
+        {
+            "name" : "linkedin",
+            "value": "Hemanth Krishna Sankara",
+            "icon": "bi-linkedin",
+            "url" : "https://www.linkedin.com/in/hemanth-krishna-sankara-8a1b25185"
+        },
+        {
+            "name" : "mail",
+            "value": "hemanthsankara@gmail.com",
+            "icon" : "bi-envelope-fill",
+            "url" : "mailto:hemanthsankara@gmail.com"
+        },
+        {
+            "name" : "instagram",
+            "value": "hemanth____krishna",
+            "icon" : "bi-instagram",
+            "url" : "https://instagram.com/hemanth____krishna?utm_source=qr&igshid=ZTM4ZDRiNzUwMw=="
+        },
+        {
+            "name" : "resume",
+            "value": "Download Resume",
+            "icon" : "bi-file-earmark-person",
+            "url" : "https://www.canva.com/design/DAFvqKWdFXU/IGRDzq6iZN-8npNJ5W3KsQ/view?utm_content=DAFvqKWdFXU&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel"
+        }
+    ]
+}
