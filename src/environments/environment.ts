@@ -4,7 +4,7 @@
 declare var apiConfig: any;
 export const environment = {
   production: false,
-  title: 'personalBlog-Staging',
+  title: 'portfolio-Staging',
   href: document.getElementsByTagName('base')[0].href,
   assetsPath: document.getElementsByTagName('base')[0].href + 'assets',
   apiBaseUrl: 'assets/jsons/mock-api/',
