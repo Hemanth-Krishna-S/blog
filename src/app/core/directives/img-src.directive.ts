@@ -22,6 +22,6 @@ export class ImgSrcDirective implements OnInit {
     // } else {
     //   this.elem.nativeElement.src = environment.baseHref + '/assets/images/' + this.imgSrc;
     // }
-    this.elem.nativeElement.src = environment.href + 'assets/' + this.imgSrc;
+    this.elem.nativeElement.src = 'assets/' + this.imgSrc;
   }
 }
