@@ -40,6 +40,7 @@ export class HeaderComponent implements OnInit{
   }
 
   navigate(id: string) {
+    this.router.navigateByUrl(id);
     this.menuActive = id;
   }
 }

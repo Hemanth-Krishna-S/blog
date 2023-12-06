@@ -14,7 +14,7 @@
         <div class="offcanvas-body justify-content-end">
             <ul class="navbar-nav mb-2 mb-lg-0 gap-3 font-bold">
                 <li *ngFor= "let element of navbarElements" class="nav-item">
-                  <a class="nav-link" [class.active] = "menuActive === element.id" href="{{element.navigationUrl}}" (click) = "navigate(element.id)">{{element.displayName}}</a>
+                  <a class="nav-link" [class.active] = "menuActive === element.id" (click) = "navigate(element.id)">{{element.displayName}}</a>
                 </li>
             </ul>
         </div>
