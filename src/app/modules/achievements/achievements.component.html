@@ -1,25 +1,25 @@
 <div class="container">
   <div class="row mt-5">
-    <div *ngFor = "let item of achievements; index as i" class="col-12 col-md-4 mt-5">
+    <div *ngFor = "let achievement of achievements; index as i" class="col-12 col-md-4 mt-5">
         <div class="card">
             <div id="collapseexample{{i}}" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                  <div *ngFor = "let image of item.images" class="carousel-item" [class.active] = "image.active">
+                  <div *ngFor = "let image of achievement.images" class="carousel-item" [class.active] = "image.active">
                     <img [imgSrc]="image.name" class="d-block w-100" alt="...">
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" [attr.data-bs-target]="'#collapseexample'+i" data-bs-slide="prev">
+                <button *ngIf="achievement.images && achievement.images.length > 1" class="carousel-control-prev" type="button" [attr.data-bs-target]="'#collapseexample'+i" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" [attr.data-bs-target]="'#collapseexample'+i" data-bs-slide="next">
+                <button *ngIf="achievement.images && achievement.images.length > 1" class="carousel-control-next" type="button" [attr.data-bs-target]="'#collapseexample'+i" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
             </div>
             <div class="card-body">
-                <h5 class="card-title">{{item.heading}}</h5>
-                <p class="card-text">{{item.text}}</p>
+                <h5 class="card-title">{{achievement.heading}}</h5>
+                <p class="card-text">{{achievement.text}}</p>
             </div>
         </div>
     </div>
