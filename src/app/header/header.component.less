@@ -1,5 +1,9 @@
 @import '../core/themes/__variables.less';
 
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+}
 .navbar-nav .nav-link {
     text-transform: uppercase;
     // font-family: cursive;
@@ -17,4 +21,9 @@
 .navbar-toggler{
     font-size: medium;
     padding: 6px;
+    border: 1px solid @brown;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 2px @brown;
 }
