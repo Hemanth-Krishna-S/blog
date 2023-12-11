@@ -17,7 +17,7 @@ export class HeaderComponent implements OnInit{
   assetsPath: string = environment.assetsPath;
   navbarApi: string = ApiConstants.FETCH_NAVBAR_ELEMENTS_API;
   defaultNavbarActiveElement: string = Constants.DEFAULT_NAVBAR_ACTIVE_ELEMENT;
-  logoImage = "logo3.png";
+  logoImage = "logo2.png";
 
   constructor(private router: Router,
     private headerService: HeaderService) {
