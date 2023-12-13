@@ -5,7 +5,7 @@
             <div id="collapseexample{{i}}" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div *ngFor = "let image of achievement.images" class="carousel-item" [class.active] = "image.active">
-                    <img [imgSrc]="image.name" class="d-block w-100" alt="..." (click) = "openImgPopup(image.name)">
+                    <img [imgSrc]="image.name" class="d-block w-100" alt="...">
                   </div>
                 </div>
                 <button *ngIf="achievement.images && achievement.images.length > 1" class="carousel-control-prev" type="button" [attr.data-bs-target]="'#collapseexample'+i" data-bs-slide="prev">
