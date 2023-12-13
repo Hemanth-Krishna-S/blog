@@ -3,10 +3,23 @@
     object-fit: contain;
 }
 
-.row .card:last-child img{
-    height: 235px;
+.card {
+    .card-body {
+        border-top: 3px solid @brown;
+    }
 }
+.img-card {
+    max-height: 400px;
+    overflow: scroll;
+}
+.carousel-inner {
+    height: 300px;
 
+    img {
+        object-fit: contain;
+    }
+
+}
 .carousel-control-prev,.carousel-control-next {
     width: 7%;
 }
@@ -16,4 +29,21 @@
     height: 35px;
     width: 25px;
     background-color: @brown;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: @brown;
+    --bs-btn-border-color: @brown;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: @brown;
+    --bs-btn-hover-border-color: @brown;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: @brown;
+    --bs-btn-active-border-color: @brown;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: @brown;
+    --bs-btn-disabled-border-color: @brown;
 }

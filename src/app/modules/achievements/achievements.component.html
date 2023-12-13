@@ -5,7 +5,7 @@
             <div id="collapseexample{{i}}" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div *ngFor = "let image of achievement.images" class="carousel-item" [class.active] = "image.active">
-                    <img [imgSrc]="image.name" class="d-block w-100" alt="...">
+                    <img [imgSrc]="image.name" class="d-block w-100" alt="..." (click) = "openImgPopup(image.name)">
                   </div>
                 </div>
                 <button *ngIf="achievement.images && achievement.images.length > 1" class="carousel-control-prev" type="button" [attr.data-bs-target]="'#collapseexample'+i" data-bs-slide="prev">
@@ -24,4 +24,30 @@
         </div>
     </div>
   </div>
+</div>
+
+<!-- Modal -->
+<div
+  class="modal"
+  tabindex="-1"
+  role="dialog"
+  [ngStyle]="{'display':displayStyle}"> 
+  <div class="modal-dialog" role="document"> 
+    <div class="modal-content"> 
+      <!-- <div class="modal-header"> 
+        <h4 class="modal-title">GeeksForGeeks</h4> 
+      </div>  -->
+      <div class="modal-body"> 
+        <div class="card img-card">
+          <img :src="assets/{{popUpImgUrl}}" alt="Logo">
+        </div>
+      </div> 
+      <div class="modal-footer"> 
+        <button type="button" class="btn btn-primary" 
+                (click)="closeImgPopup()"> 
+          Close 
+        </button> 
+      </div> 
+    </div> 
+  </div> 
 </div>

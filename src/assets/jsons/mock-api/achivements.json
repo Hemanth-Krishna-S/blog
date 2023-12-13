@@ -3,21 +3,29 @@
     "description" : "Fetched Successfully",
     "achievements" : [
         {
-            "heading" : "Team of the Quarter JAS-2023",
+            "heading" : "Team of the Quarter(Jul,Aug,Sep)-2023",
             "images" : [
                 {
-                    "name" : "EOM_JAN_2023.jpg",
+                    "name" : "TOQ_JAS_2023_1.jpg",
                     "active" :  true
+                },
+                {
+                    "name" : "TOQ_JAS_2023_1_1.jpg",
+                    "active" :  false
                 }
             ],
             "text" : ""
         },
         {
-            "heading" : "Team of the Quarter JAS-2023",
+            "heading" : "Team of the Quarter(Jul,Aug,Sep)-2023",
             "images" : [
                 {
-                    "name" : "EOM_JAN_2023.jpg",
+                    "name" : "TOQ_JAS_2023_2.jpg",
                     "active" :  true
+                },
+                {
+                    "name" : "TOQ_JAS_2023_2_1.jpg",
+                    "active" :  false
                 }
             ],
             "text" : ""
