@@ -13,8 +13,8 @@ export class AchievementsComponent {
   achievementsApi: string = ApiConstants.FETCH_ACHIVEMENTS_API;
   achievements: Achievement[] | undefined;
   openImgPopUp:boolean = false;
-  displayStyle:string = 'none';
-  popUpImgUrl:string = '';
+  // displayStyle:string = 'none';
+  // popUpImgUrl:string = '';
 
   constructor(private achievementsService: AchievementsService) {}
 
@@ -30,12 +30,12 @@ export class AchievementsComponent {
     })
   }
   
-  openImgPopup(imgUrl:string) { 
-    this.popUpImgUrl = imgUrl;
-    this.displayStyle = "block"; 
-  } 
-  closeImgPopup() { 
-    this.displayStyle = "none"; 
-  } 
+  // openImgPopup(imgUrl:string) { 
+  //   this.popUpImgUrl = imgUrl;
+  //   this.displayStyle = "block"; 
+  // } 
+  // closeImgPopup() { 
+  //   this.displayStyle = "none"; 
+  // } 
 
 }
